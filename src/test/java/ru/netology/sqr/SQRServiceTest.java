@@ -13,13 +13,5 @@ public class SQRServiceTest {
         assertEquals(expected, actual);
     }
 
-    @Test
-    public void shouldCalcNegNumber() {
-        SQRService service = new SQRService();
-        int actual = service.calculate(-200, -300);
-        int expected = 0;
-        assertEquals(expected, actual);
-    }
-
 
 }
